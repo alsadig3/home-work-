@@ -1,0 +1,20 @@
+Copy-Item
+ هو أمر يُستخدم لنسخ الملفات أو المجلدات أو العناصر الأخرى من مكان إلى آخر. 
+الصيغة العامة:
+Copy-Item -Path <Source> -Destination <Destination> [-Recurse] [-Force]
+
+أمثلة:
+نسخ ملف من مكان إلى آخر:
+
+Copy-Item -Path "C:\source\file.txt" -Destination "D:\destination"
+
+، Move-Item
+ هو أمر يُستخدم لنقل الملفات أو المجلدات أو العناصر الأخرى من موقع إلى آخر. 
+، يقوم هذا الأمر بنقل العنصر الأصلي إلى الموقع الجديد بدلاً من نسخه، أي أن العنصر يختفي من الموقع المصدر ويظهر في الموقع الوجهة
+الصيغة العامة:
+Move-Item -Path <Source> -Destination <Destination> [-Force]
+أمثلة:
+نقل ملف إلى موقع جديد:
+
+Move-Item -Path "C:\source\file.txt" -Destination "D:\destination"
+
